@@ -4,7 +4,7 @@ import UserRoutes from './routes/user.routes.js';
 import { connectDB } from './config/config.js';
 import bodyParser from 'body-parser';
 const app = express();
-
+const PORT = 9000;
 connectDB();
 app.use(bodyParser());
 app.use('/api', TodoRoutes) //middleware
@@ -30,8 +30,8 @@ app.use((err, req, res, next) => {
     res.json(error);
 })
 
-app.listen(9000, ()=>{
-    console.log('Server is running on port 9000')
+app.listen(PORT, ()=>{
+    console.log(`Server is running on port ${PORT}`); //
 })
 
 
