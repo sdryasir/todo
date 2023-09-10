@@ -36,24 +36,6 @@ app.listen(9000, ()=>{
 
 
 
-// let person = {
-//     name:'YASIR',
-//     qual:'MCS',
-//     address:'pak',
-//     contact:'098765'
-// }
-
-// let vals = Object.values(person);
-// let keys = Object.keys(person);
-
-
-// let  a = [12, 34, 5,32,12,45]
-
-// a.map((val)=>{
-//     console.log(val);
-// })
-
-
 
 
 
