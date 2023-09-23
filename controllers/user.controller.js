@@ -6,10 +6,6 @@ export const getUserById = function(req, res){
     res.json("Single User")
 }
 
-export const createUser = function(req, res){
-    res.json("Create User")
-}
-
 export const updateUser = function(req, res){
     res.json("Update User")
 }

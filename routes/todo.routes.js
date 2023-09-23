@@ -8,7 +8,6 @@ router.route('/todo').get(getTodoById);
 router.route('/todo/update').put(updateTodo);
 router.route('/todo/delete').delete(deleteTodo);
 
-
 export default router;
 
 
